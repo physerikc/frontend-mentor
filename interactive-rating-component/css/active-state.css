@@ -1,0 +1,127 @@
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: #232d34;
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start;
+    
+    background-image: linear-gradient(rgb(33, 38, 44),hsl(207, 18%, 10%));
+    border-radius: 30px;
+    width: 350px;
+    height: 400px;
+    padding: 0 30px;
+}
+
+.container.ativo {
+    display: none;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--Dark-Blue);
+    border-radius: 50%;
+    padding: 13px 13px;
+    margin: 30px 10px;  
+    height: 45px;
+    width: 45px;
+}
+
+.star img {
+    height: 15px;
+    width: 15px;
+}
+
+.title {
+    color: var(--White);
+    justify-content: left;
+    margin: 5px 0;
+}
+
+.text {
+    font-size: 13px;
+    color: var(--Medium-Grey);
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--Medium-Grey);
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 45px;
+    width: 45px;
+    background-color: var(--Dark-Blue);
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.botao.ativo {
+    color: var(--White);
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--White);
+    color: var(--Orange);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button.aberto {
+    cursor: pointer;
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+
+
+
+
+
+

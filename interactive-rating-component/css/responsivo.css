@@ -1,0 +1,82 @@
+    @media(max-width: 375px){
+
+        .container{
+            width: 245px;
+            height: 300px;
+           
+        }
+
+        .star {  
+            height: 32px;
+            width: 32px;
+            margin: 20px 0;
+        }
+
+        .star img {
+            height: 12px;
+            width: 12px;
+        }
+
+        .title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            font-size: 12px;
+            color: var(--Medium-Grey);
+            margin-top: 5px;
+            line-height: 20px;
+        }
+
+        .botoes {
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .botao {
+            font-size: 12px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .button {
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 30px;
+        }
+
+        .attribution {
+            font-size: 12px;
+        }
+
+        .card {
+            padding: 30px;
+            width: 245px;
+            height: 300px;
+        }
+
+        .img-thank {
+            width: 12rem;
+            height: 12rem;
+            margin-top: -50px;
+        }
+
+        .parag {
+            padding: 5px;
+            margin-top: -10px;
+        }
+
+        .h2 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .parag2 {
+            font-size: 10px;
+            line-height: 15px;
+            
+            
+        }
+    }

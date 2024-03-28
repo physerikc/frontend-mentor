@@ -1,0 +1,116 @@
+
+:root {
+    /*Primary*/
+    --Blue: hsl(246, 80%, 60%);
+    
+    --Light-red-work: hsl(15, 100%, 70%);
+    --Soft-blue-play: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Viole-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+    
+     /*Neutral*/
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+
+.all-cards {
+    display: none;
+}
+
+.all-cards.aberto{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.front-card {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: var(--Dark-blue);
+    margin-top: -10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sup-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 30px;
+}
+
+.sup-card span {
+    color: #ffffff;
+}
+
+.sup-card img {
+    cursor: pointer;
+}
+
+.content-card .parg3 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.content-card .parg4 {
+    color: var(--Pale-Blue);
+    margin: 10px 30px 10px;
+}
+
+.back-card {
+display: flex;
+align-items: center;
+justify-content: end;
+
+overflow: hidden;
+}
+
+.back-card img {
+    height: 60px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.card-work {
+    background-color: var(--Light-red-work);
+}
+
+.card-play {
+    background-color: var(--Soft-blue-play);
+}
+
+.card-study {
+    background-color: var(--Light-red-study);
+}
+
+.card-exercise {
+    background-color: var(--Lime-green-exercise);
+}
+
+.card-social {
+    background-color: var(--Viole-social);
+}
+
+.card-selfcare {
+    background-color: var(--Soft-orange-self-care);
+}
+
+

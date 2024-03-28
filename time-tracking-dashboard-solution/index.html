@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="src/css/general.css">
+  <link rel="stylesheet" href="src/css/card-personal.css">
+  <link rel="stylesheet" href="src/css/all-cards.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+
+</head>
+<body>
+  <main>
+    <div class="card-personal">
+      <div class="sup-personal">
+        <img src="src/images/image-jeremy.png" alt="img of the personal">
+        <div>
+          <p class="parg1">Report for</p>
+          <p class="parg2">Jeremy Robson</p>
+        </div>
+        
+      </div>
+      <div class="bot-personal">
+        <span class="botao ativo" id="daily">Daily</span>
+        <span class="botao" id="weekly">Weekly</span>
+        <span class="botao" id="monthly">Monthly</span>
+      </div>
+    </div>
+
+    <div class="all-cards aberto" id="card-daily">
+
+      <div class="card card-work">
+        <div class="back-card"><img src="src/images/icon-work.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Work</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">5hrs</p>
+            <p class="parg4">Last Day - 7hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-play">
+        <div class="back-card"><img src="src/images/icon-play.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Play</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">1hr</p>
+            <p class="parg4">Last Day - 2hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-study">
+        <div class="back-card"><img src="src/images/icon-study.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Study</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">0hrs</p>
+            <p class="parg4">Last Day - 1hr</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-exercise">
+        <div class="back-card"><img src="src/images/icon-exercise.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Exercise</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">1hr</p>
+            <p class="parg4">Last Day - 1hr</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-social">
+        <div class="back-card"><img src="src/images/icon-social.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Social</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">1hr</p>
+            <p class="parg4">Last Day - 3hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-selfcare">
+        <div class="back-card"><img src="src/images/icon-self-care.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Self care</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">0hrs</p>
+            <p class="parg4">Last Day - 1hr</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="all-cards" id="card-weekly">
+
+      <div class="card card-work">
+        <div class="back-card"><img src="src/images/icon-work.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Work</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">32hrs</p>
+            <p class="parg4">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-play">
+        <div class="back-card"><img src="src/images/icon-play.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Play</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">10hrs</p>
+            <p class="parg4">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-study">
+        <div class="back-card"><img src="src/images/icon-study.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Study</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">4hrs</p>
+            <p class="parg4">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-exercise">
+        <div class="back-card"><img src="src/images/icon-exercise.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Exercise</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">4hrs</p>
+            <p class="parg4">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-social">
+        <div class="back-card"><img src="src/images/icon-social.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Social</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">5hrs</p>
+            <p class="parg4">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-selfcare">
+        <div class="back-card"><img src="src/images/icon-self-care.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Self care</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">2hrs</p>
+            <p class="parg4">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="all-cards" id="card-monthly">
+
+      <div class="card card-work">
+        <div class="back-card"><img src="src/images/icon-work.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Work</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">103hrs</p>
+            <p class="parg4">Last Month - 128hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-play">
+        <div class="back-card"><img src="src/images/icon-play.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Play</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">23hrs</p>
+            <p class="parg4">Last Month - 29hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-study">
+        <div class="back-card"><img src="src/images/icon-study.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Study</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">13hrs</p>
+            <p class="parg4">Last Month - 19hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-exercise">
+        <div class="back-card"><img src="src/images/icon-exercise.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Exercise</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">11hrs</p>
+            <p class="parg4">Last Month - 18hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-social">
+        <div class="back-card"><img src="src/images/icon-social.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Social</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">21hrs</p>
+            <p class="parg4">Last Month - 23hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-selfcare">
+        <div class="back-card"><img src="src/images/icon-self-care.svg" alt="back of the card"></div>
+
+        <div class="front-card">
+          <div class="sup-card">
+            <span>Self care</span>
+            <img src="src/images/icon-ellipsis.svg" alt="three points">
+          </div>
+          <div class="content-card">
+            <p class="parg3">7hrs</p>
+            <p class="parg4">Last Month - 11hrs</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Ericksla7">Erick Sanch</a>.
+  </div>
+
+  <script src="src/js/index.js"></script>
+</body>
+</html>
